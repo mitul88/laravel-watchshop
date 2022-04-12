@@ -17,8 +17,8 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('description')->nullable();
-            $table->decimel('price',8,2);
-            $table->decimel('sale_price',8,2)->nullable();
+            $table->decimal('price',8,2);
+            $table->decimal('sale_price',8,2)->nullable();
             $table->integer('quantity');
             $table->string('category');
             $table->string('type');
