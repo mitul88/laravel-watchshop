@@ -16,10 +16,10 @@
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="{{asset('lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
 
         <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
+        <link href="{{asset('css/style.css')}}" rel="stylesheet">
     </head>
 
     <body>
@@ -27,7 +27,7 @@
         <div id="nav">
             <div class="container-fluid">
                 <div id="logo" class="pull-left">
-                    <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+                    <a href="index.html"><img src="{{asset('img/logo.png')}}" alt="Logo" /></a>
                 </div>
 
                 <nav id="nav-menu-container">

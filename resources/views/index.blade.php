@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="header-img">
-                            <img src="img/watch-header.png" alt="Product Image">
+                            <img src="{{asset('img/watch-header.png')}}" alt="Product Image">
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                     <div class="col-md-3">
                         <div class="product-single">
                             <div class="product-img">
-                                <img src="img/product-1.png" alt="Product Image">
+                                <img src="{{asset('img/product-1.png')}}" alt="Product Image">
                             </div>
                             <div class="product-content">
                                 <h2>Sports Edition</h2>
@@ -174,7 +174,7 @@
                     <div class="col-md-3">
                         <div class="product-single">
                             <div class="product-img">
-                                <img src="img/product-2.png" alt="Product Image">
+                                <img src="{{asset('img/product-2.png')}}" alt="Product Image">
                             </div>
                             <div class="product-content">
                                 <h2>Sports Edition</h2>
@@ -186,7 +186,7 @@
                     <div class="col-md-3">
                         <div class="product-single">
                             <div class="product-img">
-                                <img src="img/product-3.png" alt="Product Image">
+                                <img src="{{asset('img/product-3.png')}}" alt="Product Image">
                             </div>
                             <div class="product-content">
                                 <h2>Sports Edition</h2>
@@ -198,7 +198,7 @@
                     <div class="col-md-3">
                         <div class="product-single">
                             <div class="product-img">
-                                <img src="img/product-4.png" alt="Product Image">
+                                <img src="{{asset('img/product-4.png')}}" alt="Product Image">
                             </div>
                             <div class="product-content">
                                 <h2>Sports Edition</h2>
@@ -228,7 +228,7 @@
                 <div class="owl-carousel testimonials-carousel">
                     <div class="testimonial-item">
                         <div class="testimonial-img">
-                            <img src="img/testimonial-1.jpg" alt="">
+                            <img src="{{asset('img/testimonial-1.jpg')}}" alt="">
                         </div>
                         <div class="testimonial-content">
                             <h3>Christopher Heath</h3>
@@ -241,7 +241,7 @@
 
                     <div class="testimonial-item">
                         <div class="testimonial-img">
-                            <img src="img/testimonial-2.jpg" alt="">
+                            <img src="{{asset('img/testimonial-2.jpg')}}" alt="">
                         </div>
                         <div class="testimonial-content">
                             <h3>Mollie White</h3>
@@ -254,7 +254,7 @@
 
                     <div class="testimonial-item">
                         <div class="testimonial-img">
-                            <img src="img/testimonial-3.jpg" alt="">
+                            <img src="{{asset('img/testimonial-3.jpg')}}" alt="">
                         </div>
                         <div class="testimonial-content">
                             <h3>Tom McKenzie</h3>
@@ -267,7 +267,7 @@
                     
                     <div class="testimonial-item">
                         <div class="testimonial-img">
-                            <img src="img/testimonial-4.jpg" alt="">
+                            <img src="{{asset('img/testimonial-4.jpg')}}" alt="">
                         </div>
                         <div class="testimonial-content">
                             <h3>Ruby Forster</h3>
@@ -280,7 +280,7 @@
                     
                     <div class="testimonial-item">
                         <div class="testimonial-img">
-                            <img src="img/testimonial-5.jpg" alt="">
+                            <img src="{{asset('img/testimonial-5.jpg')}}" alt="">
                         </div>
                         <div class="testimonial-content">
                             <h3>Leo Conway</h3>
